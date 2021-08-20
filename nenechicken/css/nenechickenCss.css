@@ -1,3 +1,19 @@
 html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, strong, tt, dl, dt, dd, ol, ul, li, form, label, table, tr, th, td, article, aside, canvas, embed, figure, footer, header, menu, nav, section, map, fieldset, audio, video {
-    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+.headerLast_l ul {
+    overflow: hidden;
+}
+
+ol, ul, dl {
+    list-style: none;
 }

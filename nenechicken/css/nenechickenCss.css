@@ -3,17 +3,33 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, s
     padding: 0;
 }
 
+ol, ul, dl {
+    list-style: none;
+}
+
 body {
     font-size: 20px;
+    font-family: "Nanum-Gothic";
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     color: #000;
+}
+
+.headerLastCover {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.headerLast_l {
+    float: left;
+    width: 75%;
 }
 
 .headerLast_l ul {
     overflow: hidden;
 }
 
-ol, ul, dl {
-    list-style: none;
+.headerLast_l ul li a img {
+    width: 100%;
 }
+

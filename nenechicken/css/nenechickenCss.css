@@ -7,6 +7,14 @@ ol, ul, dl {
     list-style: none;
 }
 
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
 body {
     font-size: 20px;
     font-family: "Nanum-Gothic";
@@ -20,6 +28,10 @@ body {
     margin: 0 auto;
 }
 
+.headerLastWrap {
+    overflow: hidden;
+}
+
 .headerLast_l {
     float: left;
     width: 75%;
@@ -29,10 +41,38 @@ body {
     overflow: hidden;
 }
 
+.headerLast_l ul li {
+    float: left;
+}
+
+.headerLast_l ul li a {
+    display: inline-block;
+    padding: 9px 0 7px;
+}
+
 .headerLast_l ul li a img {
     width: 100%;
 }
 
-.headerLast_l ul li {
+.headerLast_r {
+    float: right;
+    width: 25%;
+}
+
+.headerLast_r ul {
+    overflow: hidden;
+    width: 100%;
+}
+
+.headerLast_r ul li {
     float: left;
+    padding: 29px 0;
+}
+
+.headerLast_r ul li a {
+    display: inline-block;
+}
+
+.headerLast_r ul li a img {
+    width: 100%;
 }

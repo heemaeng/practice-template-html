@@ -1,3 +1,7 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
 html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, strong, tt, dl, dt, dd, ol, ul, li, form, label, table, tr, th, td, article, aside, canvas, embed, figure, footer, header, menu, nav, section, map, fieldset, audio, video {
     margin: 0;
     padding: 0;
@@ -21,6 +25,12 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     color: #000;
+}
+
+/*header*/
+.header {
+    width:94%;
+    margin:0 auto;
 }
 
 .headerLastCover {
@@ -74,5 +84,61 @@ body {
 }
 
 .headerLast_r ul li a img {
+    width: 100%;
+}
+
+/*content*/
+.content {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+
+.main_01_img {
+    float: left;
+    width: 50%;
+}
+
+/*swiper*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper2 .swiper-slide {
+    position: relative;
+}
+
+.swiper-slide {
+    /*text-align: center;*/
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper1 img {
+    width: 100%;
+}
+.swiper2 img {
+    width: 100%;
+    height: 100%;
+}
+.swiper3 img {
+    width: 100%;
+    height: 100%;
+}
+.swiper4 img {
     width: 100%;
 }

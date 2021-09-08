@@ -7,6 +7,7 @@
     <title>NENECHICKEN</title>
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="./css/nenechickenCss.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 </head>
 <body>
     <div class="wrap">
@@ -103,22 +104,22 @@
                         <div class="mainPadding">
                             <div class="swiper-container swiper1 swiper-container-horizontal">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide" data-swiper-slide-index="3">
+                                    <div class="swiper-slide">
                                         <img src="images/adm/일단멈춤.jpg">
                                     </div>
-                                    <div class="swiper-slide" data-swiper-slide-index="0">
+                                    <div class="swiper-slide">
                                         <img src="images/adm/홈페이지-배너.jpg">
                                     </div>
-                                    <div class="swiper-slide" data-swiper-slide-index="1">
+                                    <div class="swiper-slide">
                                         <img src="images/adm/KakaoTalk_20210430_175318694.jpg">
                                     </div>
-                                    <div class="swiper-slide" data-swiper-slide-index="2">
+                                    <div class="swiper-slide">
                                         <img src="images/adm/네네나쵸팩-정방향.jpg">
                                     </div>
-                                    <div class="swiper-slide" data-swiper-slide-index="3">
+                                    <div class="swiper-slide">
                                         <img src="images/adm/일단멈춤.jpg">
                                     </div>
-                                    <div class="swiper-slide" data-swiper-slide-index="0">
+                                    <div class="swiper-slide">
                                         <img src="images/adm/홈페이지-배너.jpg">
                                     </div>
                                 </div>
@@ -158,6 +159,36 @@
         <script>
         </script>
     </div>
+    <style>
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper2 .swiper-slide {position: relative;}
+    .swiper-slide {
+        /*text-align: center;*/
+        font-size: 18px;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper1 img {width:100%;}
+    .swiper2 img {width:100%; height:100%;}
+    .swiper3 img {width:100%; height:100%;}
+    .swiper4 img {width:100%;}
+    </style>
     <script src="js/swiper.min.js"></script>
 
     <!-- Initialize Swiper -->

@@ -98,3 +98,12 @@ body {
     float: left;
     width: 50%;
 }
+
+.main_02_event {
+    float: left;
+    width: 25%;
+}
+
+.mainEvent {
+    position: relative;
+}

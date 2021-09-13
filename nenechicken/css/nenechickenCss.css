@@ -94,6 +94,10 @@ body {
     padding-bottom: 3%;
 }
 
+.mainPadding {
+    margin: 6px;
+}
+
 .main_01_img {
     float: left;
     width: 50%;
@@ -106,4 +110,61 @@ body {
 
 .mainEvent {
     position: relative;
+}
+
+.main_02_2facebook .mainPadding {
+    background: #ebebeb;
+}
+
+
+.mainFacebook {
+    position: relative;
+}
+
+.mainFacebook_Line {
+    border: 11px solid #ebebeb;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.mainFacebook:hover .mainFacebook_Line {
+    border: 11px solid #ccc;
+}
+
+.faceBook_text {
+    padding: 5% 6% 0;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.faceBook_date {
+    padding: 13px 6% 0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+    color: #39599f;
+}
+
+.faceBook_mark {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    text-align: right;
+}
+
+.faceBook_mark img {
+    width: 45%;
+}
+
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    line-height: 18px;
+    height: 54px;
 }

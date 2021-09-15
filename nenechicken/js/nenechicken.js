@@ -1,4 +1,20 @@
 $(function () {
+
+  function neneMain(){
+    var wW = $(window).width();
+    var mainMargin = 6;//가운데 나누는 마진값
+    $('.mainPadding').css('margin',mainMargin+'px'){
+
+      var mainW = $('.main_01_img .mainPadding').width();
+      var secondW = mainW/2-mainMargin;//반 6=가운데 마진준값
+      var thirdW = secondW/2-mainMargin;//4분의1 6=가운데 마진준값
+      var fourthW = thirdW/2;//8분의1
+
+      $('.main_01_img .mainPadding').height(mainW);//메인이미지 높이주고
+      $('.main_02_levent .mainPadding').height(secondW);//반띵한 높이주고 이벤트
+      $('.main_03_bestOrder .bestMenu').height(secondW);//반띵한 높이주고 베스트메뉴
+    }
+  }
   $(".hmenu")
     .mouseover(function () {
       $(this).attr("src", "./images/selected_1.png");

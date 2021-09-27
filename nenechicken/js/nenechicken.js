@@ -12,6 +12,8 @@ $(function () {
     $(".main_01_img .mainPadding").height(mainW); //메인이미지 높이주고
     $(".main_02_levent .mainPadding").height(secondW); //반띵한 높이주고 이벤트
     $(".main_03_bestOrder .bestMenu").height(secondW); //반띵한 높이주고 베스트메뉴
+
+    $(".main_02_2facebook .mainPadding").height(thirdW); //반띵한 높이주고 페이스북
   }
   neneMain();
 

@@ -104,6 +104,10 @@ body {
     width: 25%;
 }
 
+.main_02_levent {
+    overflow:hidden
+}
+
 .mainEvent {
     position: relative;
 }
@@ -112,6 +116,10 @@ body {
     background: #ebebeb;
 }
 
+.main_03_bestOrder {
+    float: left;
+    width: 25%;
+}
 
 .mainFacebook {
     position: relative;

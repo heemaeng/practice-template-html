@@ -161,7 +161,6 @@ body {
     width: 45%;
 }
 
-
 .ellipsis {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -171,4 +170,45 @@ body {
     word-wrap: break-word;
     line-height: 18px;
     height: 54px;
+}
+.bestMenu {
+    position: relative;
+}
+
+.bigTitleImg {
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    z-index: 9999;
+    width: 100%;
+}
+
+.bigTitleImg img {
+    width: 34%;
+}
+
+.smallSubtitle {
+    color: #fff;
+    position: absolute;
+    top: 43%;
+    right: 10%;
+    color: #e8d5d7;
+    font-weight: 100;
+    width: 6em;
+}
+
+.eventSubText {
+    position: absolute;
+    top: 11%;
+    right: 13%;
+    font-size: .9em;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.bestLink {
+    display: block;
+    color: #000;
+    width: 100%;
+    height: 100%;
 }

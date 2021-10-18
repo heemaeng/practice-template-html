@@ -14,6 +14,14 @@ $(function () {
     $(".main_03_bestOrder .bestMenu").height(secondW); //반띵한 높이주고 베스트메뉴
     $(".main_02_levent .mainPadding").height(secondW); //반띵한 높이주고 이벤트
     $(".main_02_2facebook .mainPadding").height(thirdW); //반띵한 높이주고 페이스북
+
+    if (wW < 750) {
+      $(".main_04_bestOrder .onlineOrder").height(secondW); //반띵한 높이주고 온라인 주문
+      $(".main_04_bestOrder_m .onlineOrder").height(secondW); //반띵한 높이주고 온라인 주문
+    } else {
+      $(".main_04_bestOrder .onlineOrder").height(thirdW); //반띵한 높이주고 온라인 주문
+      $(".main_04_bestOrder_m .onlineOrder").height(thirdW); //반띵한 높이주고 온라인 주문
+    }
   }
   neneMain();
 

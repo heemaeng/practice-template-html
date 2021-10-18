@@ -2,30 +2,15 @@
 
 /* CSS Document */
 
-html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, strong, tt, dl, dt, dd, ol, ul, li, form, label, table, tr, th, td, article, aside, canvas, embed, figure, footer, header, menu, nav, section, map, fieldset, audio, video {
-    margin: 0;
-    padding: 0;
-}
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, strong, tt, dl, dt, dd, ol, ul, li, form, label, table, tr, th, td, article, aside, canvas, embed, figure, footer, header, menu, nav, section, map, fieldset, audio, video {margin: 0;padding: 0;}
 
-ol, ul, dl {
-    list-style: none;
-}
+ol, ul, dl {list-style: none;}
 
-a:link, a:hover, a:visited, a:active {
-    text-decoration: none;
-}
+a:link, a:hover, a:visited, a:active {text-decoration: none;}
 
-img {
-    border: 0;
-}
+img {border: 0;}
 
-body {
-    font-size: 20px;
-    font-family: "Nanum-Gothic";
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 300;
-    color: #000;
-}
+body {font-size: 20px;font-family: "Nanum-Gothic";font-family: 'Noto Sans KR', sans-serif;font-weight: 300;color: #000;}
 
 /*header*/
 .header {
@@ -88,52 +73,42 @@ body {
 }
 
 /*content*/
+
 .content {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 3%;
 }
-
+.main_fullCover {width:100%; overflow:hidden;}
+.main_fullCover img {width:100%;}
 .main_01_img {
     float: left;
     width: 50%;
 }
 
-.main_02_event {
-    float: left;
-    width: 25%;
-}
+.main_02_event {float:left; width:25%;}
 
-.main_02_levent {
-    overflow:hidden
-}
+.main_02_levent {overflow:hidden}
 
-.mainEvent {
-    position: relative;
-}
+.mainEvent {position:relative;}
 
-.main_02_2facebook .mainPadding {
-    background: #ebebeb;
-}
+.main_02_2facebook .mainPadding {background:#ebebeb;}
 
-.main_03_bestOrder {
-    float: left;
-    width: 25%;
-}
+.main_03_bestOrder {float:left; width:25%;}
 
-.mainFacebook {
-    position: relative;
-}
+.main_04_bestOrder {float:left; width:25%; cursor:pointer;}
+    .main_04_bestOrder .mainPadding {overflow:hidden; background:#ecbb1d;}
+    .onlineOrder {position:relative;}
+    .mainOrderLine {height:100%; border:11px solid #ecbb1d; box-sizing:border-box;}
+    /*이미지*/
+    .bigTitleImg3 {position:absolute; top:16%; left:9%; z-index:9999; width:100%;}
+    .bigTitleImg3 img {width:34%;}
 
-.mainFacebook_Line {
-    border: 11px solid #ebebeb;
-    box-sizing: border-box;
-    height: 100%;
-}
+.mainFacebook {position: relative;}
 
-.mainFacebook:hover .mainFacebook_Line {
-    border: 11px solid #ccc;
-}
+.mainFacebook_Line {border:11px solid #ebebeb; box-sizing:border-box; height:100%;}
+
+.mainFacebook:hover .mainFacebook_Line {border:11px solid #ccc;}
 
 .faceBook_text {
     padding: 5% 6% 0;

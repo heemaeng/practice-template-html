@@ -13,8 +13,7 @@ img {border: 0;}
 body {font-size: 20px;font-family: "Nanum-Gothic";font-family: 'Noto Sans KR', sans-serif;font-weight: 300;color: #000;}
 
 /*header*/
-.header {
-    width:94%;
+.header { width:94%;
     margin:0 auto;
 }
 
@@ -74,25 +73,15 @@ body {font-size: 20px;font-family: "Nanum-Gothic";font-family: 'Noto Sans KR', s
 
 /*content*/
 
-.content {
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 3%;
-}
+.content {width:90%; margin:0 auto; padding-bottom:3%;}
 .main_fullCover {width:100%; overflow:hidden;}
 .main_fullCover img {width:100%;}
-.main_01_img {
-    float: left;
-    width: 50%;
-}
+.main_01_img {float:left; width:50%;}
 
 .main_02_event {float:left; width:25%;}
-
-.main_02_levent {overflow:hidden}
-
-.mainEvent {position:relative;}
-
-.main_02_2facebook .mainPadding {background:#ebebeb;}
+    .main_02_levent {overflow:hidden}
+    .mainEvent {position:relative;}
+    .main_02_2facebook .mainPadding {background:#ebebeb;}
 
 .main_03_bestOrder {float:left; width:25%;}
 

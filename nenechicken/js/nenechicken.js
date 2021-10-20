@@ -22,6 +22,24 @@ $(function () {
       $(".main_04_bestOrder .onlineOrder").height(thirdW); //반띵한 높이주고 온라인 주문
       $(".main_04_bestOrder_m .onlineOrder").height(thirdW); //반띵한 높이주고 온라인 주문
     }
+
+    $(".mainNoticeLine")
+      .height(fourthW)
+      .css("line-height", fourthW + "pw"); //반띵한 높이주고 공지
+    $(".mainEventLine")
+      .height(fourthW)
+      .css("line-height", fourthW + "px"); //반띵한 높이주고 이벤트
+
+    if (wW < 1008) {
+      $(".main_08_gallery .mainSns").height(thirdW); //반띵한 높이주고 sns
+    } else {
+      $(".main_08_gallery .mainSns").height(secondW); //반띵한 높이주고 sns
+    }
+    if (wW < 1008) {
+      $(".main_08_gallery .mainGallery").height(thirdW); //반띵한 높이주고 사등분 갤러리
+    } else {
+      $(".main_08_gallery .mainGallery").height(secondW); //반띵한 높이주고 사등분 갤러리
+    }
   }
   neneMain();
 

@@ -116,6 +116,14 @@ body {font-size: 20px;font-family: "Nanum-Gothic";font-family: 'Noto Sans KR', s
     .gal div.galIn4 {margin-right:2%;}
     .gal div.galIn5 {margin-right:1.5%; margin-left:1.5%;}
     .gal div.galIn6 {margin-left:2%;}
+    .mainSnsCover {}
+    .mainSns {}
+    .snsBox {height:48.5%; background:#f7bb00; text-align:center; margin-bottom:3%;}
+    .snsBoxUl {overflow:hidden;}
+    .snsBoxUl li {float:left; width:33.33%;}
+    .snsBox img.smsda {}
+    .rollingBox {height:48.5%;}
+    .rollingCover {height:30%; padding:30% 8% 0; position:relative;}
 
 
 .mainFacebook {position: relative;}

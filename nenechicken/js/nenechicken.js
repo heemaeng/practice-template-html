@@ -10,6 +10,7 @@ $(function () {
     var fourthW = thirdW / 2; //8분의1
 
     $(".main_01_img .mainPadding").height(mainW); //메인이미지 높이주고
+    $(".main_06_video .mainPadding").height(mainW); //메인영상 높이 주고
 
     $(".main_03_bestOrder .bestMenu").height(secondW); //반띵한 높이주고 베스트메뉴
     $(".main_02_levent .mainPadding").height(secondW); //반띵한 높이주고 이벤트
@@ -39,6 +40,12 @@ $(function () {
       $(".main_08_gallery .mainGallery").height(thirdW); //반띵한 높이주고 사등분 갤러리
     } else {
       $(".main_08_gallery .mainGallery").height(secondW); //반띵한 높이주고 사등분 갤러리
+    }
+
+    if (wW < 750) {
+      $("iframe").css("width", "90%");
+      $("iframe").css("height", "250px");
+    } else {
     }
   }
   neneMain();

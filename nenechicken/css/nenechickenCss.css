@@ -101,6 +101,20 @@ body {font-size: 20px;font-family: "Nanum-Gothic";font-family: 'Noto Sans KR', s
     .mainNotice_go, .mainEvent_go {color:#fff; float:left; width:12%; background:url(../images/noticeArr.png) no-repeat right center; background-size:35px 35px;}
     .mainNotice_hot a, .mainEvent_hot a {color: #000;}
 
+.main_06_video {float:right; width:50%;}
+    .main_06_video .mainPadding {background:#4a4a4a;}
+    .hotVideo {position:relative;}
+    .bigTitleImg4 {position:absolute; top:4.8%; left:4.5%; z-index:9999; width:100%;}
+    .bigTitleImg4 img {width:17%;}
+    .mainFrameCover {width:89%; margin:0 auto; padding-top:19%;}
+    .mainFrameCover iframe.bigMovie {height:55%;}
+    .mainFrameCover iframe {border:3px solid #ccc;}
+    .bbe {position:absolute; top:19%; right:7%; width:90px; margin-top:-61px; z-index:99;}
+    .bbe img {width:90px;}
+    .mainVideoText {padding:5% 7% 0;}
+    .mainVideoText .mainVideoTitle {font-size:19px; font-weight:500; color:#fff; padding-bottom:2%;}
+    .mainVideoText .mainVideoEx {color:#999; font-size:14px; word-break:break-all;}
+
 .main_08_gallery {float:right; width:25%;}
     .mainGallery {position:relative;}
     .bigTitleImg2 {position:absolute; top:10%; left:.5%; z-index:9999; width:100%;}
@@ -124,7 +138,7 @@ body {font-size: 20px;font-family: "Nanum-Gothic";font-family: 'Noto Sans KR', s
     .snsBox img.smsda {}
     .rollingBox {height:48.5%;}
     .rollingCover {height:30%; padding:30% 8% 0; position:relative;}
-
+    
 
 .mainFacebook {position: relative;}
 

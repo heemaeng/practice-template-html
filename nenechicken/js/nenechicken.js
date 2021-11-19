@@ -14,7 +14,9 @@ $(function () {
 
     $(".main_03_bestOrder .bestMenu").height(secondW); //반띵한 높이주고 베스트메뉴
     $(".main_02_levent .mainPadding").height(secondW); //반띵한 높이주고 이벤트
-    $(".main_02_2facebook .mainPadding").height(thirdW); //반띵한 높이주고 페이스북
+
+    $(".main_07_store .findStore").height(secondW); //반띵한 높이주고 매장찾기
+    $(".main_07_store .fourInfo").height(secondW); //반띵한 높이주고 사등분 고객의소리
 
     if (wW < 750) {
       $(".main_04_bestOrder .onlineOrder").height(secondW); //반띵한 높이주고 온라인 주문
@@ -23,7 +25,7 @@ $(function () {
       $(".main_04_bestOrder .onlineOrder").height(thirdW); //반띵한 높이주고 온라인 주문
       $(".main_04_bestOrder_m .onlineOrder").height(thirdW); //반띵한 높이주고 온라인 주문
     }
-
+    $(".main_02_2facebook .mainPadding").height(thirdW); //반띵한 높이주고 페이스북
     $(".mainNoticeLine")
       .height(fourthW)
       .css("line-height", fourthW + "pw"); //반띵한 높이주고 공지

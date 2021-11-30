@@ -128,3 +128,29 @@ body {font-size:20px; font-family:"Nanum-Gothic"; font-family:'Noto Sans KR',san
     .neneNumber a { cursor: default; }
     .neneNumber img {width:90%; max-width:340px; padding-top:7px;}
     .neneTel_m {display:none;}
+    .nenePmenu {float:left; width:33.33%;}
+    .nenePmenu ul {}
+    .nenePmenu ul li {float:left; line-height:3.5em; line-height:85px; text-align:center;}
+    .nenePmenu ul li.u01 {width:22%;}
+    .nenePmenu ul li.u02 {width:39%;}
+    .nenePmenu ul li.u03 {width:39%;}
+    .nenePmenu ul li a {color:#ccc; font-weight:100; font-size:13px; line-height:66px;}
+    .neneFamily {float:left; width:33.33%; height:66px; text-align:right;}
+    .neneFamily img {height:80%; width:auto; margin-top:17px;}
+    .neneFamily a {}
+    .footerPc {font-size:12px;}
+    .footerGray {background:#484747;}
+    .footerPc_innerover {overflow:hidden;}
+    .footerGrayInner {width:94%; margin:0 auto; padding:3% 0; overflow:hidden; display:block;}
+    .footerPc_l {float:left; width:66%;}
+    .footerPc_l_addr {float:left; width:40%; color:#979595;}
+    .orange {color:#ecb518;}
+    .footerPC_l_copy {float:left; width:60%; color:#979595; padding-top:76px; font-size:9px;}
+    .footerPc_r {float:right; color:#979595;}
+    .askBtn {color:#d7d7d7; font-size:17px; font-weight:500; cursor:pointer;}
+    .askArea {display:none; position:relative; min-height:160px;}
+    .askClose {position:absolute; top:10px; right:3%; width:20px; height:20px; cursor:pointer;}
+    .askClose img {width:100%;}
+    .padding_b {padding-bottom:6px;}
+    .askRadiowrap {overflow:hidden;}
+    .askRadiotitle {float:left; width:15%; text-indent:15px; color:#d8a60e; line-height:39px;}
